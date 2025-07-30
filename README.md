@@ -123,13 +123,3 @@ Revised agent flow
 > Use Capella AI to reduce latency & infra complexity where possible.
 
 ---
-
-## ✅ **Next Steps & Task Distribution**
-
-Would you like me to:
-
-* Break this into **individual tickets** (Notion / Trello-style)
-* Generate a **Kanban board** format for team collaboration
-* Help draft the **agent implementations** (LangGraph functions)
-
-Let me know your preferred task format and tool, and I can generate it right away.

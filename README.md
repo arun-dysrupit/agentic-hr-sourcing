@@ -1,5 +1,7 @@
 # agentic-hr-sourcing
 
+In order to run the app, follow the instructions listed in the file: [Instructions.md](https://github.com/shivay-couchbase/agentic-hr-sourcing/blob/main/implementation.md)
+
  **Implementation Plan**
  
 ---

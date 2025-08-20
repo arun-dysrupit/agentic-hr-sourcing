@@ -1,5 +1,5 @@
 1. Create a .env file in the root directory and add the following variables:
-
+```
 # Couchbase Capella Configuration
 CB_CONNECTION_STRING=
 CB_USERNAME=
@@ -16,7 +16,7 @@ BROWSER_AUTH=
 # Nebius AI API KEY 
 NEBIUS_API_BASE=
 NEBIUS_API_KEY=
-
+```
 
 2. Run the following command to install the dependencies:
 

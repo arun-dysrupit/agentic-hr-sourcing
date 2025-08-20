@@ -47,6 +47,3 @@ In the HR agent, you can upload a job description and the resumes will be search
 python linkedin_extractor.py
 ```
 
-6. In order to do job description analysis, you need to run the following command:
-
-```bash

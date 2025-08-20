@@ -1,0 +1,76 @@
+{
+    "type": "fulltext-index",
+    "name": "vector_search_recruiter",
+    "uuid": "1ebc798727591913",
+    "sourceType": "gocbcore",
+    "sourceName": "recruiter",
+    "sourceUUID": "3c8d923c16e5d0a40bbeb234603d7ff3",
+    "planParams": {
+      "maxPartitionsPerPIndex": 1024,
+      "indexPartitions": 1
+    },
+    "params": {
+      "doc_config": {
+        "docid_prefix_delim": "",
+        "docid_regexp": "",
+        "mode": "scope.collection.type_field",
+        "type_field": "type"
+      },
+      "mapping": {
+        "analysis": {},
+        "default_analyzer": "standard",
+        "default_datetime_parser": "dateTimeOptional",
+        "default_field": "_all",
+        "default_mapping": {
+          "dynamic": false,
+          "enabled": false
+        },
+        "default_type": "_default",
+        "docvalues_dynamic": false,
+        "index_dynamic": true,
+        "store_dynamic": true,
+        "type_field": "_type",
+        "types": {
+          "_default._default": {
+            "dynamic": false,
+            "enabled": true,
+            "properties": {
+              "description": {
+                "dynamic": false,
+                "enabled": true,
+                "fields": [
+                  {
+                    "analyzer": "en",
+                    "docvalues": true,
+                    "include_term_vectors": true,
+                    "name": "summary",
+                    "store": true,
+                    "type": "text"
+                  }
+                ]
+              },
+              "embedding": {
+                "dynamic": false,
+                "enabled": true,
+                "fields": [
+                  {
+                    "dims": 4096,
+                    "index": true,
+                    "name": "embedding",
+                    "similarity": "dot_product",
+                    "type": "vector",
+                    "vector_index_optimized_for": "recall"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      "store": {
+        "indexType": "scorch",
+        "segmentVersion": 16
+      }
+    },
+    "sourceParams": {}
+  }

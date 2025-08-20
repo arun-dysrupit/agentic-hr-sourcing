@@ -38,8 +38,8 @@ python hr_app.py
 
 In the HR agent, you can upload a job description and the resumes will be searched for the best matches. There are two options: 
 
-1. Pure vector search
-2. Hybrid search (vector search + filters) 
+      a. Pure vector search
+      b. Hybrid search (vector search + filters) 
 
 5. First ensure you have a spreadsheet with the Linkedin URLs kept in the profiles folder. In order to do Linkedin scraping, you need to run the following command:
 

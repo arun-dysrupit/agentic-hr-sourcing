@@ -2,6 +2,13 @@
 
 In order to run the app, follow the instructions listed in the file: [Instructions.md](https://github.com/shivay-couchbase/agentic-hr-sourcing/blob/main/implementation.md)
 
+
+## ToDo 
+1. Figure out if we need to fetch the Resume URL from Bamboo HR
+2. If (1) is not possible, fetch resumes and upload them to an S3 bucket and update the resume parser code to fetch resumes from S3.
+3. Wait for Brightdata to fix Linkedin Scraper MCP tool to get Linkedin Scraper working
+4. Discuss with Arun regarding the feasibility for which candidates are eligible to apply - this will require us to create a new field
+
  **Implementation Plan**
  
 ---

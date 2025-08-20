@@ -9,10 +9,13 @@ In order to run the app, follow the instructions listed in the file: [Instructio
 3. Wait for Brightdata to fix Linkedin Scraper MCP tool to get Linkedin Scraper working
 4. Discuss with Arun regarding the feasibility for which candidates are eligible to apply - this will require us to create a new field
 
+
+---------
+---------
+---------
+
  **Implementation Plan**
  
----
-
 ## **📥 Phase 1: Ingestion from BambooHR + LinkedIn**
 
 ### 🟦 **Source A: BambooHR Zip File**
